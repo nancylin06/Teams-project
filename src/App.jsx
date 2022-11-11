@@ -95,7 +95,7 @@ function App() {
     localStorage.setItem('array', JSON.stringify(array))
   }, [array])
   useEffect(() => {
-    localStorage.getItem('values', JSON.stringify(values))
+    localStorage.setItem('values', JSON.stringify(values))
   }, [values])
 
   return (
